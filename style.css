@@ -535,6 +535,10 @@ body{
     }
 
     /* Hero Section */
+    .hero .left{
+        top: 5%;
+    }
+
     .hero h1 {
         font-size: 60px;
     }
