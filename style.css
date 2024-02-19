@@ -150,6 +150,11 @@ a{
     width: 80%;
     margin: auto;
 }
+.project h1{
+    font-size: 35px;
+    margin: 1em;
+    text-align: center;
+}
 .pjtgallery{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -161,8 +166,8 @@ a{
     width: 60%;
     margin: 5px;
     border: 1px solid #ccc;
-    background-color: rgba(0, 0, 0, 0.836);
-    
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
     /* width: 180px; */
 }
 .gallery:hover {
