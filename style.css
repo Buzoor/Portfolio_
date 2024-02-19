@@ -371,12 +371,15 @@ textarea{
         .container {
             display: flex;
             flex-direction: column;
-            margin: auto;
+            margin: 0%;
+            /* margin: auto; */
             /* justify-content: space-around; */
         }
     
      .contactleft{
         width: 100%;
+        margin: 0%;
+        padding: 0%;
      }
     
     
@@ -391,7 +394,9 @@ textarea{
     
         .contactright {
             width: 100%;
-            padding: 1em;
+            margin: 0%;
+            padding: 0%;
+            /* padding: 1em; */
         }
     
         form {
@@ -447,7 +452,9 @@ footer ul{
         }
 }
 @media only screen and (max-width: 768px) {
-
+body{
+    width: 100vw;
+}
     /* Navbar */
     .nav {
         flex-direction: column;
